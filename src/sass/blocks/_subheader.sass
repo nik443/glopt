@@ -1,0 +1,40 @@
+.subheader
+    color: #2e2e2e
+    font-size: 26px
+    font-weight: 700
+    text-transform: uppercase
+    line-height: 26px
+    margin: 0
+    &_white
+        color: #ffffff
+    &_red-line
+        position: relative
+        &::after
+            content: ""
+            display: block
+            position: absolute
+            bottom: -25px
+            width: 148px
+            height: 1px
+            background-color: $pink_color
+            left: 50%
+            transform: translateX(-50%)   
+    &_big
+        font-size: 28px
+        font-weight: 400
+    &_modal
+        font-size: 15px
+        line-height: 15px
+        text-transform: none
+        padding: 0 0 8px 8px
+.slogan
+    margin-top: 38px
+    color: #ffffff
+    font-size: 19px
+    font-weight: 300
+    line-height: 24px
+    &_big
+        font-size: 21px
+        color: #2e2e2e
+        
+    

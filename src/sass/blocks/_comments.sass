@@ -1,0 +1,57 @@
+.comments
+    padding: 51px 0 0 0
+    max-width: 1803px
+    margin: 0 auto
+.slider
+    max-width: 1803px
+    height: 314px
+    margin: 31px auto 0 auto
+    position: relative
+    &__item
+        text-align: center
+        &:focus
+            outline: none
+        &:last-child
+            margin-right: 0
+        img
+            display: block
+            margin: 0 auto
+        span
+            font-size: 18px
+            font-weight: 700
+        p
+            color: #3a3a3a
+            font-size: 14px
+            font-weight: 300
+            line-height: 22px
+.slick-track
+    display: flex
+    align-items: center
+.slick-list
+    overflow: hidden
+.slick-current
+    margin: 0 45px
+    position: relative
+
+.slick-arrow
+    font-size: 0
+    position: absolute
+    top: 34px
+    border: none
+    z-index: 10
+    width: 14px
+    height: 47px
+    &:focus
+        outline: none
+.slick-arrow.slick-prev
+    background: url(../icons/prevBtn.png)
+.slick-arrow.slick-next
+    background: url(../icons/nextBtn.png)
+
+//MEDIA 
+@media ( max-width: 1200px )
+    .comments
+        width: 980px
+    .slider
+        width: 980px
+    

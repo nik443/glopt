@@ -1,0 +1,111 @@
+.promo
+    min-height: 680px
+    padding: 23px 0 78px 0
+    background: url(../img/backgrounds/promo_bg.jpg) center center/cover no-repeat
+    header
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__logo
+        img
+            width: 100%
+            height: auto
+    &__list
+        ul
+            display: flex
+            list-style-type: none
+            li 
+                padding: 0 14px 0 13px
+                border-right: 2px dotted #585d69
+                a
+                    color: #ffffff
+                    text-decoration: none
+                    font-size: 15px
+                    font-weight: 400
+                    position: relative
+                    &::after
+                        content: ""
+                        display: none
+                        position: absolute
+                        bottom: -5px
+                        width: 100%
+                        height: 1px
+                        background-color: $pink_color
+                    &:hover
+                        color: $pink_color
+                        &::after
+                            display: block
+                &:last-child
+                    border-right: none
+    &__consultation
+        display: flex
+        margin-left: 27px
+    &__number
+        margin-right: 19px
+        color: #ffffff
+        font-size: 14px
+        font-weight: 300
+        line-height: 24px
+        text-align: right
+        span
+            font-size: 19px
+            font-weight: 700
+    &__content
+        padding-top: 9px
+        .container
+        h4 
+            color: #ffffff
+            font-size: 24px
+            font-weight: 300
+            line-height: 24px
+        h1 
+            margin-top: 26px
+            color: $pink_color
+            font-family: "Roboto Condensed"
+            font-size: 72px
+            line-height: 72px
+            font-weight: 700
+            text-transform: uppercase
+        h2 
+            margin-top: 9px
+            color: #ffffff
+            font-family: "Roboto Condensed"
+            font-size: 42px
+            font-weight: 400
+    &__icons
+        margin-bottom: 39px
+    &__icon
+        display: flex
+        flex-direction: column
+        justify-content: center
+        p 
+            color: #ffffff
+            font-size: 16px
+            font-weight: 300
+            line-height: 22px
+            text-align: center
+            margin-bottom: 0
+        img
+            margin-bottom: 0
+            margin-top: 0
+            display: block
+            margin: 38px auto 30px auto
+
+//MEDIA
+@media ( max-width: 1200px )
+    .promo
+        width: 980px
+                
+
+
+    
+
+
+
+    
+            
+            
+    
+
+
+                    
